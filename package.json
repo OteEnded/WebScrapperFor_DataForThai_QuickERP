@@ -1,0 +1,26 @@
+{
+  "name": "dataforthaiwebscrapperv2",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node main.js",
+    "report": "node theProgressReporter.js",
+    "count": "npm run report",
+    "tocsv": "node thePythonLauncher.js",
+    "setcookie": "node theCookieSetter.js",
+    "cookie": "npm run setcookie"
+  },
+  "keywords": [],
+  "author": "OteEnded",
+  "license": "ISC",
+  "dependencies": {
+    "csv-parser": "^3.0.0",
+    "node-notifier": "^10.0.1",
+    "puppeteer": "^22.13.1",
+    "puppeteer-extra": "^3.3.6",
+    "puppeteer-extra-plugin-stealth": "^2.11.2",
+    "random-useragent": "^0.5.0"
+  }
+}

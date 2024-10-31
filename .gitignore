@@ -1,0 +1,61 @@
+# vscode history extension
+.history 
+
+# vscode
+.vscode-test 
+.vs
+
+# npm lock file (local installed packages)
+package-lock.json
+
+# node modules folder
+node_modules
+
+# environment variables (private)
+.env
+
+# environment variables as json (private)
+.env.json 
+
+# logs folder
+logs
+Logs
+
+# Assigned folder
+Assigned
+
+# Mac OS system files
+.DS_Store
+
+# 
+.dist
+
+# code runner temp file
+tempCodeRunnerFile.*
+
+# testing and debugging area
+thePlayGround.js
+thePlayGround*.*
+
+# jetbrains .idea folder
+.idea
+
+# token storage (private)
+tokenStorage.txt
+
+# python virtual environment
+*venv*
+
+# file's name starts with Python in Python folder
+Python/Python*
+
+# # ignore undone python files (temporary)
+# Python
+
+# ignore Temporary files
+Temp
+__pycache__
+temp*
+
+# page.html (web page that trying to scrape)
+page.html
